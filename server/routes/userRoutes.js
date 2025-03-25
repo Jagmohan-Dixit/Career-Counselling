@@ -2,13 +2,7 @@
 const express = require("express")
 const router = express.Router()
 
-const {
-  resetPasswordToken,
-  resetPassword,
-} = require("../controllers/resetPassword")
-
 const { auth } = require("../middleware/auth")
-
 
 // Export the router for use in the main application
 module.exports = router
