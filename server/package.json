@@ -1,19 +1,18 @@
 {
-	"name": "edtech-backend",
+	"name": "career-backend",
 	"version": "1.0.0",
-	"description": "edtech-backend",
+	"description": "career-backend",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"EdTech-backend"
+		"career-backend"
 	],
-	"author": "Aditya Pareek",
+	"author": "career Team",
 	"license": "ISC",
 	"dependencies": {
-		"bcrypt": "^5.1.0",
 		"bcryptjs": "^2.4.3",
 		"cloudinary": "^1.36.4",
 		"cookie-parser": "^1.4.6",

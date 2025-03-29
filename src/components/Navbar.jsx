@@ -11,13 +11,12 @@ const Navbar = () => {
   }
 
   return (
-    <div >
-      <nav className="flex justify-between items-center h-20 mx-auto px-10 bg-blue-300">
+    <div className="hidden sm:block">
+      <nav className="flex justify-between items-center h-20 mx-auto px-0 bg-blue-300">
           <div className="flex flex-row justify-around items-center">
             <Link to="/">
               <img src={logo} alt="Logo"loading="lazy" />
             </Link>
-            <p>Career Mentor Hub</p>
           </div>
           <ul className="flex gap-x-6 text-richblack-25 h-9 items-center justify-center">
             {

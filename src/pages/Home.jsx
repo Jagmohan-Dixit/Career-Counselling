@@ -5,17 +5,18 @@ import CodeBlocks from "../components/CodeBlocks";
 const Home = () => {
   return (
     <div>
-      <section className="w-11/10 h-11/10">
+      <section className="w-[100%] h-11/10">
         <img src={logo} alt="Logo"loading="lazy" />
       </section>
 
+      
       <div className="w-11/12 flex flex-col justify-center items-center">
         <section className="flex flex-col justify-center items-center">
           <h1 className="text-5xl mb-6">Features Overview</h1>
           <p>Discover the powerful tools and resources available on Career Mentor Hub</p>
           <p>designed to accelerate your professional growth.</p>
         </section>
-                {/* Code Section 2 */}
+
         <div className="w-11/12">
             <CodeBlocks
               position={"lg:flex-row"}
